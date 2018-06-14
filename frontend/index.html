@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Egret</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="full-screen" content="true" />
+  <meta name="screen-orientation" content="portrait" />
+  <meta name="x5-fullscreen" content="true" />
+  <meta name="360-fullscreen" content="true" />
+
+  <style>
+        html, body {
+            /*-ms-touch-action: none;*/
+            background: transparent;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+            background-color: black;
+        }
+        canvas{
+          background: white;
+        }
+        .video{
+          width: 100%;
+          position: absolute;
+          top: 0;
+          z-index: 99;
+        }
+        .video>div{
+          width: 50%;
+          float: left;
+          height: 100%;
+          position: relative;
+          background-color:white; 
+        }
+        .video img{
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: block;
+        }
+    </style>
+
+<!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+<!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js"></script>
+	<script egret="lib" src="libs/modules/dragonBones/dragonBones.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js"></script>
+	<!--modules_files_end-->
+
+<!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+<script egret="lib" src="polyfill/promise.js" src-release="polyfill/promise.min.js"></script>
+<script egret="lib" src="js/EventManager/EventManager.js"></script>
+<script src="http://biu-assets1.oss-cn-hangzhou.aliyuncs.com/tikigame/utils/js/tiki-game2.0.min.js"></script>
+<script egret="lib" src="js/Net/GameDataManager.js" src-release="js/Net/GameDataManager.js"></script>
+<script src="http://cdn.bootcss.com/socket.io/1.7.3/socket.io.min.js"></script>
+<script src="http://biu-assets1.oss-cn-hangzhou.aliyuncs.com/tikigame/utils/js/tikigame-connector.min.js"></script>
+<script egret="lib" src="js/Net/Connection.js"></script>
+<script egret="lib" src="js/controller/MonkeyCenter.js"></script>
+<script egret="lib" src="js/controller/RobotCenter.js"></script>
+<script egret="lib" src="js/Net/tikiCenter.js"></script>
+
+<script egret="lib" src="js/eruda.min.js"></script>
+
+
+<!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+<!--game_files_start-->
+	<script egret="lib" src="bin-debug/components/BarBottom.js"></script>
+	<script egret="lib" src="bin-debug/components/game/Car.js"></script>
+	<script egret="lib" src="bin-debug/components/common/Bitmap.js"></script>
+	<script egret="lib" src="bin-debug/components/common/BitmapText.js"></script>
+	<script egret="lib" src="bin-debug/components/common/Button.js"></script>
+	<script egret="lib" src="bin-debug/components/common/GameUtil.js"></script>
+	<script egret="lib" src="bin-debug/components/common/ImageLoader.js"></script>
+	<script egret="lib" src="bin-debug/components/common/LoadingLayer.js"></script>
+	<script egret="lib" src="bin-debug/components/common/Mask.js"></script>
+	<script egret="lib" src="bin-debug/components/common/Modal.js"></script>
+	<script egret="lib" src="bin-debug/components/common/ModalLayer.js"></script>
+	<script egret="lib" src="bin-debug/components/common/TextField.js"></script>
+	<script egret="lib" src="bin-debug/Main.js"></script>
+	<script egret="lib" src="bin-debug/components/game/Tree.js"></script>
+	<script egret="lib" src="bin-debug/components/hall/ScoreBar.js"></script>
+	<script egret="lib" src="bin-debug/components/modals/OfflineModal.js"></script>
+	<script egret="lib" src="bin-debug/components/over/RankBar.js"></script>
+	<script egret="lib" src="bin-debug/components/over/TitleBar.js"></script>
+	<script egret="lib" src="bin-debug/manager/AnimateManager.js"></script>
+	<script egret="lib" src="bin-debug/manager/GameData.js"></script>
+	<script egret="lib" src="bin-debug/manager/UIManager.js"></script>
+	<script egret="lib" src="bin-debug/scene/SceneGame.js"></script>
+	<script egret="lib" src="bin-debug/scene/SceneHall.js"></script>
+	<script egret="lib" src="bin-debug/scene/SceneOver.js"></script>
+	<script egret="lib" src="bin-debug/util/Util.js"></script>
+	<!--game_files_end-->
+</head>
+
+<body>
+  <div style="margin: auto;width: 100%;height: 100%;position: absolute!important;bottom: 0;z-index: 9;" class="egret-player" data-entry-class="Main" data-orientation="auto" data-scale-mode="fixedNarrow" data-frame-rate="30"
+data-content-width="750" data-content-height="1334" data-show-paint-rect="false" data-multi-fingered="2" data-show-fps="false"
+data-show-log="false" data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+</div>
+<!--<div class="video">
+    <div><img id="avatar1" src="" alt=""></div>
+    <div id="avatar2W"><img id="avatar2" src="" alt=""></div>
+  </div>-->
+<script>
+  /**
+   * {
+   * "renderMode":, //引擎渲染模式，"canvas" 或者 "webgl"
+   * "audioType": 0 //使用的音频类型，0:默认，1:qq audio，2:web audio，3:audio
+   * "antialias": //WebGL模式下是否开启抗锯齿，true:开启，false:关闭，默认为false
+   * "retina": //是否基于devicePixelRatio缩放画布
+   * }
+   **/
+  // 计算视频尺寸
+  // window.videoSize = document.querySelector('body').getBoundingClientRect().width / 2;
+  // document.querySelector('.video').style.height = videoSize + 'px';
+  egret.runEgret({ renderMode: "canvas", audioType: 3 });
+  // eruda.init();
+</script>
+</body>
+
+</html>

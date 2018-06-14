@@ -1,0 +1,315 @@
+{
+	"groups": [
+		{
+			"keys": "pic_djs_1_png,pic_djs_2_png,pic_djs_3_png,public_bgk_png,waiting_json,waiting_png,pic_red_png,pic_blue_png,pic_huihe_png,pic_bar_png,pic_jz_png,pic_jzz_png,bg_png,btn_js_1_png,btn_js_2_png,pic_1_png,pic_2_png,pic_3_png,pic_bar_car_1_png,pic_bar_car_2_png,pic_biao_png,pic_biao_zhen_png,pic_car_1_png,pic_lb_1_png,pic_lb_10_png,pic_lb_11_png,pic_lb_2_png,pic_lb_3_png,pic_lb_4_png,pic_lb_5_png,pic_lb_6_png,pic_lb_7_png,pic_lb_8_png,pic_lb_9_png,pic_lz_png,pic_qz_png,pic_qz2_png,pic_star_png,pic_xian_png,public_bg2_png,pic_car_6_png,pic_car_4_png,pic_car_5_png,hongche_ske_json,hongche_tex_png,hongche_tex_json,lanche_ske_json,lanche_tex_png,lanche_tex_json,pic_car_2_png,pic_car_22_png,tip-right_png,tip-left_png,tip-hand_png,tip-hand2_png,tip-left2_png,tip-right2_png,carbgm_mp3,carcrash_mp3,jiantou_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/pic_djs_1.png",
+			"type": "image",
+			"name": "pic_djs_1_png"
+		},
+		{
+			"url": "assets/pic_djs_2.png",
+			"type": "image",
+			"name": "pic_djs_2_png"
+		},
+		{
+			"url": "assets/pic_djs_3.png",
+			"type": "image",
+			"name": "pic_djs_3_png"
+		},
+		{
+			"url": "assets/public_bg2.png",
+			"type": "image",
+			"name": "public_bg2_png"
+		},
+		{
+			"url": "assets/public_bgk.png",
+			"type": "image",
+			"name": "public_bgk_png"
+		},
+		{
+			"url": "assets/waiting.png",
+			"type": "image",
+			"name": "waiting_png"
+		},
+		{
+			"url": "assets/waiting.json",
+			"type": "json",
+			"name": "waiting_json"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/pic_red.png",
+			"type": "image",
+			"name": "pic_red_png"
+		},
+		{
+			"url": "assets/pic_blue.png",
+			"type": "image",
+			"name": "pic_blue_png"
+		},
+		{
+			"url": "assets/pic_huihe.png",
+			"type": "image",
+			"name": "pic_huihe_png"
+		},
+		{
+			"url": "assets/pic_bar.png",
+			"type": "image",
+			"name": "pic_bar_png"
+		},
+		{
+			"url": "assets/pic_jz.png",
+			"type": "image",
+			"name": "pic_jz_png"
+		},
+		{
+			"url": "assets/pic_jzz.png",
+			"type": "image",
+			"name": "pic_jzz_png"
+		},
+		{
+			"url": "assets/bg.png",
+			"type": "image",
+			"name": "bg_png"
+		},
+		{
+			"url": "assets/btn_js_1.png",
+			"type": "image",
+			"name": "btn_js_1_png"
+		},
+		{
+			"url": "assets/btn_js_2.png",
+			"type": "image",
+			"name": "btn_js_2_png"
+		},
+		{
+			"url": "assets/pic_1.png",
+			"type": "image",
+			"name": "pic_1_png"
+		},
+		{
+			"url": "assets/pic_2.png",
+			"type": "image",
+			"name": "pic_2_png"
+		},
+		{
+			"url": "assets/pic_3.png",
+			"type": "image",
+			"name": "pic_3_png"
+		},
+		{
+			"url": "assets/pic_bar_car_1.png",
+			"type": "image",
+			"name": "pic_bar_car_1_png"
+		},
+		{
+			"url": "assets/pic_bar_car_2.png",
+			"type": "image",
+			"name": "pic_bar_car_2_png"
+		},
+		{
+			"url": "assets/pic_biao.png",
+			"type": "image",
+			"name": "pic_biao_png"
+		},
+		{
+			"url": "assets/pic_biao_zhen.png",
+			"type": "image",
+			"name": "pic_biao_zhen_png"
+		},
+		{
+			"url": "assets/pic_car_1.png",
+			"type": "image",
+			"name": "pic_car_1_png"
+		},
+		{
+			"url": "assets/pic_lb_1.png",
+			"type": "image",
+			"name": "pic_lb_1_png"
+		},
+		{
+			"url": "assets/pic_lb_10.png",
+			"type": "image",
+			"name": "pic_lb_10_png"
+		},
+		{
+			"url": "assets/pic_lb_11.png",
+			"type": "image",
+			"name": "pic_lb_11_png"
+		},
+		{
+			"url": "assets/pic_lb_2.png",
+			"type": "image",
+			"name": "pic_lb_2_png"
+		},
+		{
+			"url": "assets/pic_lb_3.png",
+			"type": "image",
+			"name": "pic_lb_3_png"
+		},
+		{
+			"url": "assets/pic_lb_4.png",
+			"type": "image",
+			"name": "pic_lb_4_png"
+		},
+		{
+			"url": "assets/pic_lb_5.png",
+			"type": "image",
+			"name": "pic_lb_5_png"
+		},
+		{
+			"url": "assets/pic_lb_6.png",
+			"type": "image",
+			"name": "pic_lb_6_png"
+		},
+		{
+			"url": "assets/pic_lb_7.png",
+			"type": "image",
+			"name": "pic_lb_7_png"
+		},
+		{
+			"url": "assets/pic_lb_8.png",
+			"type": "image",
+			"name": "pic_lb_8_png"
+		},
+		{
+			"url": "assets/pic_lb_9.png",
+			"type": "image",
+			"name": "pic_lb_9_png"
+		},
+		{
+			"url": "assets/pic_lz.png",
+			"type": "image",
+			"name": "pic_lz_png"
+		},
+		{
+			"url": "assets/pic_qz.png",
+			"type": "image",
+			"name": "pic_qz_png"
+		},
+		{
+			"url": "assets/pic_qz2.png",
+			"type": "image",
+			"name": "pic_qz2_png"
+		},
+		{
+			"url": "assets/pic_star.png",
+			"type": "image",
+			"name": "pic_star_png"
+		},
+		{
+			"url": "assets/pic_xian.png",
+			"type": "image",
+			"name": "pic_xian_png"
+		},
+		{
+			"url": "assets/pic_car_6.png",
+			"type": "image",
+			"name": "pic_car_6_png"
+		},
+		{
+			"url": "assets/pic_car_4.png",
+			"type": "image",
+			"name": "pic_car_4_png"
+		},
+		{
+			"url": "assets/pic_car_5.png",
+			"type": "image",
+			"name": "pic_car_5_png"
+		},
+		{
+			"url": "assets/hongche_ske.json",
+			"type": "json",
+			"name": "hongche_ske_json"
+		},
+		{
+			"url": "assets/hongche_tex.png",
+			"type": "image",
+			"name": "hongche_tex_png"
+		},
+		{
+			"url": "assets/hongche_tex.json",
+			"type": "json",
+			"name": "hongche_tex_json"
+		},
+		{
+			"url": "assets/lanche_ske.json",
+			"type": "json",
+			"name": "lanche_ske_json"
+		},
+		{
+			"url": "assets/lanche_tex.png",
+			"type": "image",
+			"name": "lanche_tex_png"
+		},
+		{
+			"url": "assets/lanche_tex.json",
+			"type": "json",
+			"name": "lanche_tex_json"
+		},
+		{
+			"url": "assets/pic_car_2.png",
+			"type": "image",
+			"name": "pic_car_2_png"
+		},
+		{
+			"url": "assets/pic_car_2.png",
+			"type": "image",
+			"name": "pic_car_22_png"
+		},
+		{
+			"url": "assets/tip-right.png",
+			"type": "image",
+			"name": "tip-right_png"
+		},
+		{
+			"url": "assets/tip-left.png",
+			"type": "image",
+			"name": "tip-left_png"
+		},
+		{
+			"url": "assets/tip-hand.png",
+			"type": "image",
+			"name": "tip-hand_png"
+		},
+		{
+			"url": "assets/tip-hand.png",
+			"type": "image",
+			"name": "tip-hand2_png"
+		},
+		{
+			"url": "assets/tip-left.png",
+			"type": "image",
+			"name": "tip-left2_png"
+		},
+		{
+			"url": "assets/tip-right.png",
+			"type": "image",
+			"name": "tip-right2_png"
+		},
+		{
+			"url": "sound/carbgm.mp3",
+			"type": "sound",
+			"name": "carbgm_mp3"
+		},
+		{
+			"url": "sound/carcrash.mp3",
+			"type": "sound",
+			"name": "carcrash_mp3"
+		},
+		{
+			"url": "assets/jiantou.png",
+			"type": "image",
+			"name": "jiantou_png"
+		}
+	]
+}

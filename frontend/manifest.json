@@ -1,0 +1,37 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/res/res.js",
+		"libs/modules/dragonBones/dragonBones.js",
+		"libs/modules/tween/tween.js"
+	],
+	"game": [
+		"bin-debug/components/BarBottom.js",
+		"bin-debug/components/game/Car.js",
+		"bin-debug/components/common/Bitmap.js",
+		"bin-debug/components/common/BitmapText.js",
+		"bin-debug/components/common/Button.js",
+		"bin-debug/components/common/GameUtil.js",
+		"bin-debug/components/common/ImageLoader.js",
+		"bin-debug/components/common/LoadingLayer.js",
+		"bin-debug/components/common/Mask.js",
+		"bin-debug/components/common/Modal.js",
+		"bin-debug/components/common/ModalLayer.js",
+		"bin-debug/components/common/TextField.js",
+		"bin-debug/Main.js",
+		"bin-debug/components/game/Tree.js",
+		"bin-debug/components/hall/ScoreBar.js",
+		"bin-debug/components/modals/OfflineModal.js",
+		"bin-debug/components/over/RankBar.js",
+		"bin-debug/components/over/TitleBar.js",
+		"bin-debug/manager/AnimateManager.js",
+		"bin-debug/manager/GameData.js",
+		"bin-debug/manager/UIManager.js",
+		"bin-debug/scene/SceneGame.js",
+		"bin-debug/scene/SceneHall.js",
+		"bin-debug/scene/SceneOver.js",
+		"bin-debug/util/Util.js"
+	]
+}
