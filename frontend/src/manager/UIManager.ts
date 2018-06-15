@@ -180,9 +180,9 @@ class UIManager {
     // EventManager.pub('modal/onModalClose');
     switch (name) {
       case 'hall': {
-        this.sceneHall = this.sceneHall || new SceneHall();
-        this.add(this.sceneHall)
-        break
+        // this.sceneHall = this.sceneHall || new SceneHall();
+        // this.add(this.sceneHall)
+        // break
       }
       case 'game': {
         console.log('进入游戏场景')
@@ -192,20 +192,20 @@ class UIManager {
         break
       }
       case 'over': {
-        this.sceneOver = this.sceneOver || new SceneOver();
-        this.add(this.sceneOver)
-        EventManager.pub('clearReadyData');
-        EventManager.pub('ResultBar/updataScore')
-        this.barBottom.visible = true;
+        // this.sceneOver = this.sceneOver || new SceneOver();
+        // this.add(this.sceneOver)
+        // EventManager.pub('clearReadyData');
+        // EventManager.pub('ResultBar/updataScore')
+        // this.barBottom.visible = true;
 
-        //机器人再来一局逻辑
-        this.robotReady();
+        // //机器人再来一局逻辑
+        // this.robotReady();
 
-        //机器人6s后强制自动断开
-        if (GameDataManager.robotId != null) {
-          EventManager.pub('tiki/startTimerWaiting');
-        }
-        break;
+        // //机器人6s后强制自动断开
+        // if (GameDataManager.robotId != null) {
+        //   EventManager.pub('tiki/startTimerWaiting');
+        // }
+        // break;
       }
     }
   }

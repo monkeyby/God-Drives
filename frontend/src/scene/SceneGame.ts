@@ -40,11 +40,21 @@ class SceneGame extends egret.DisplayObjectContainer {
   private ctCount: number;
   private arrow: Bitmap;
 
+
+  //开始层
+  startLayer : StartLayer;
+
   constructor() {
     super();
     let self = this;
     this.init();
+    this.initLayer();
     this.fListen();
+  }
+
+  initLayer(){
+    this.startLayer = new StartLayer();
+    this.addChild(this.startLayer);
   }
 
   init() {

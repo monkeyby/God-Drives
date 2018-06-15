@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "pic_djs_1_png,pic_djs_2_png,pic_djs_3_png,public_bgk_png,waiting_json,waiting_png,pic_red_png,pic_blue_png,pic_huihe_png,pic_bar_png,pic_jz_png,pic_jzz_png,bg_png,btn_js_1_png,btn_js_2_png,pic_1_png,pic_2_png,pic_3_png,pic_bar_car_1_png,pic_bar_car_2_png,pic_biao_png,pic_biao_zhen_png,pic_car_1_png,pic_lb_1_png,pic_lb_10_png,pic_lb_11_png,pic_lb_2_png,pic_lb_3_png,pic_lb_4_png,pic_lb_5_png,pic_lb_6_png,pic_lb_7_png,pic_lb_8_png,pic_lb_9_png,pic_lz_png,pic_qz_png,pic_qz2_png,pic_star_png,pic_xian_png,public_bg2_png,pic_car_6_png,pic_car_4_png,pic_car_5_png,hongche_ske_json,hongche_tex_png,hongche_tex_json,lanche_ske_json,lanche_tex_png,lanche_tex_json,pic_car_2_png,pic_car_22_png,tip-right_png,tip-left_png,tip-hand_png,tip-hand2_png,tip-left2_png,tip-right2_png,carbgm_mp3,carcrash_mp3,jiantou_png",
+			"keys": "pic_djs_1_png,pic_djs_2_png,pic_djs_3_png,public_bgk_png,waiting_json,waiting_png,pic_red_png,pic_blue_png,pic_huihe_png,pic_bar_png,pic_jz_png,pic_jzz_png,bg_png,btn_js_1_png,btn_js_2_png,pic_1_png,pic_2_png,pic_3_png,pic_bar_car_1_png,pic_bar_car_2_png,pic_biao_png,pic_biao_zhen_png,pic_car_1_png,pic_lb_1_png,pic_lb_10_png,pic_lb_11_png,pic_lb_2_png,pic_lb_3_png,pic_lb_4_png,pic_lb_5_png,pic_lb_6_png,pic_lb_7_png,pic_lb_8_png,pic_lb_9_png,pic_lz_png,pic_qz_png,pic_qz2_png,pic_star_png,pic_xian_png,public_bg2_png,pic_car_6_png,pic_car_4_png,pic_car_5_png,hongche_ske_json,hongche_tex_png,hongche_tex_json,lanche_ske_json,lanche_tex_png,lanche_tex_json,pic_car_2_png,pic_car_22_png,tip-right_png,tip-left_png,tip-hand_png,tip-hand2_png,tip-left2_png,tip-right2_png,carbgm_mp3,carcrash_mp3,jiantou_png,btn-bg-red_png,btn-sign-start_png,startlayer-title_png",
 			"name": "preload"
 		}
 	],
@@ -310,6 +310,21 @@
 			"url": "assets/jiantou.png",
 			"type": "image",
 			"name": "jiantou_png"
+		},
+		{
+			"url": "assets/btn-bg-red.png",
+			"type": "image",
+			"name": "btn-bg-red_png"
+		},
+		{
+			"url": "assets/btn-sign-start.png",
+			"type": "image",
+			"name": "btn-sign-start_png"
+		},
+		{
+			"url": "assets/startlayer-title.png",
+			"type": "image",
+			"name": "startlayer-title_png"
 		}
 	]
 }
