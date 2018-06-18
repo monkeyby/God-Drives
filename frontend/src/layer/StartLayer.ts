@@ -2,7 +2,7 @@ class StartLayer extends egret.Sprite{
     
     btn_start : Button;
 
-    btn_
+    btn_lookrank : Button;
 
     constructor(){
         super();
@@ -25,11 +25,11 @@ class StartLayer extends egret.Sprite{
         this.addChild(title);
         
         this.btn_start = new Button({
-            default:'btn-sign-start_png',
-            touchScale: .9
+            default:'btn-bg-red_png',
+            touchScale: .9,
         })
         this.btn_start.y = 860 + UIConfig.offsetH;
-        this.btn_start.x = (UIConfig.stageW - this.btn_start.width)/2;
+        this.btn_start.x = (UIConfig.stageW)/2;
         this.addChild(this.btn_start)
 
         let start_sign = new Bitmap({
@@ -40,6 +40,21 @@ class StartLayer extends egret.Sprite{
         this.btn_start.addChild(start_sign);
 
 
+        this.btn_start.addEventListener(egret.TouchEvent.TOUCH_TAP,()=>{
+             EventManager.pub('startGame')
+        },this)
+
+        this.btn_lookrank = new Button({
+            default:'sign-rank_png',
+            touchScale: .9,
+        })
+        this.btn_lookrank.y = 950 + UIConfig.offsetH;
+        this.btn_lookrank.x = (UIConfig.stageW)/2;
+        this.addChild(this.btn_lookrank)
+
+        this.btn_lookrank.addEventListener(egret.TouchEvent.TOUCH_TAP,()=>{
+            
+        },this)
 
     }
 }

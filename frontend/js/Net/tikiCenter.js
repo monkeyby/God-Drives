@@ -4,7 +4,7 @@ var tikiCenter = {
   },
   fListen: function () {
     TikiGame.onReady(function (data) {
-      EventManager.pub('resetGame')
+      // EventManager.pub('resetGame')
       console.log('onReady:', data);
       var oldRoomId = GameDataManager.roomId;
       var sio = data.socketioURL;

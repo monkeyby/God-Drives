@@ -81,7 +81,7 @@ class Car extends egret.Sprite {
     this.anchorOffsetY = this.bg.height / 2;
 
 
-    var aniSrc = type == 1 ? 'hongche' : 'lanche';
+    var aniSrc = type == 2 ? 'hongche' : 'lanche';
     this.aniCar = AnimateManager.createDragonBoneAni(aniSrc);
     this.aniCar.visible = false;
     this.aniCar.x = 36;
